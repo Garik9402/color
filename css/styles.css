@@ -1267,7 +1267,7 @@ svg {
   }
 }
 
-@media only screen and (max-width: 574px) {
+@media only screen and (max-width: 576px) {
   .burger-menu__nav-item-link {
     font-size: 25px;
   }
@@ -1289,19 +1289,15 @@ svg {
   }
 
   .description__text {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .title {
-    font-size: 50px;
+    font-size: 55px;
   }
 
   .slider {
-    width: 320px;
-  }
-
-  .slider .slick-dots {
-    bottom: -100px;
+    width: 300px;
   }
 
   .products__row:last-child {
@@ -1360,7 +1356,7 @@ svg {
   }
 }
 
-@media only screen and (max-width: 366px) {
+@media only screen and (max-width: 375px) {
   .burger {
     width: 26px;
     height: 22px;
@@ -1368,5 +1364,19 @@ svg {
 
   .burger--js-active::after {
     bottom: 42%;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .slider {
+    width: 280px;
+  }
+
+  .slider .slick-dots {
+    width: 100px;
+    height: 26px;
+    bottom: -100px;
   }
 }
